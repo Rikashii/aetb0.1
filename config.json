@@ -1,0 +1,62 @@
+{
+    "proxies_enabled": true,
+    "env": {
+        "cookie": "swhifduhsdg",
+        "token": "REGUHRUIG"
+    },
+    "trade_notif_channel": "1",
+    "trade_completed_channel": "1",
+    "trades_inbound_channel": "1",
+    "discordid": "1",
+    "USER_ID": 1,
+
+    "Minimum_Ratio": 1.03,
+    "Maximum_Ratio": 1.12,
+    "custom_ratios_enabled": false,
+    "custom_ratios": {"10000": {"min": 1.1, "max": 1.2}, "20000": {"min":1.01, "max": 1.09}, "50000": {"min":1.01, "max": 1.06}, "100000": {"min":1.007, "max": 1.05}},
+    "custom_values_send": {"74174927":2000},
+    "custom_values_receive": {"928908332":3900},
+    "alreadysentinterval": 900000,
+    "undervalue_my_underap": false,
+    "nogucci": false,
+    "novans": false,
+    "noralph": false,
+    "noksi": false,
+    "noeggs":true,
+    
+    "Upgrade":true,
+    "Downgrade": false,
+    "Mixed": false,
+
+    "DoNotTrade": [162066057],
+    "DoNotGet": {},
+
+    "valued_only": true,
+    "give_equal_for_underap_after_revalued":false,
+    "send_demand_over": -100,
+
+    "send_for_projecteds": true,
+    "projected_ratio": 0.3,
+    "owned_projected_ratio": 1,
+    "Value_projected_at_their_price": false,
+    
+    "milliseconds_between_sending_trades": 2500,
+    "time_between_fetch_roliads": 45000,
+    "Already_sent_refresh": 60,
+    "reset_queue":true,
+    "reset_queue_after": 60,
+
+    "Time_Between_Check_completeds": 5,
+    "clear_queue_when_completed":true,
+    "Check_inbound_interval": 2,
+    "Decline_inbound_losses": false,
+
+    "Check_outbounds":true,
+    "Check_outbounds_interval": 20,
+    "Minimum_outbound_gain": 1,
+
+    "send_notif_when_trade_sent": true,
+    "Trade_sent_color": "#04FF00",
+    "Trade_completed_color": "#F0FF00"
+    
+}
